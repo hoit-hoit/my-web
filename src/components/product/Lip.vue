@@ -61,4 +61,28 @@
   background-repeat: no-repeat;
   background-color: #fff;
 }
+@media (max-width: 1024px) {
+  .eye > h1 {
+    width: 70%;
+    text-align: center;
+  }
+  .item{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item >div{
+    width: 100%;
+    // height: 70vh;
+  }
+}
+@media (max-width: 576px) {
+  .eye > h1 {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+ 
+}
 </style>

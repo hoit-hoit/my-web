@@ -19,6 +19,7 @@ import { useRouter } from 'vue-router';
 </script>
 
 <style lang="scss" scoped>
+a{text-decoration:none; color: #6b2e6d;}
     .product{
       width: 100%;
       height: 130vh;
@@ -41,10 +42,8 @@ import { useRouter } from 'vue-router';
       font-size: 20px;     
       align-items: center;
     }
-    .list >li{
-      width: 15%;      
-    }
-    .list >li:hover{
+    
+    .list li:hover{
       color: orangered;
       cursor: pointer;
     }
@@ -55,4 +54,16 @@ import { useRouter } from 'vue-router';
     border: 1px solid #555;
     background-color: #555;
     }
+    @media(max-width : 576px){
+  .list{
+      font-size: 15px; 
+      text-align: center;
+       
+    }
+}
+    @media(max-width : 345px){
+  .list{
+    text-align: center;
+  }
+}
 </style>

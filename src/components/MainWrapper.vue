@@ -129,6 +129,7 @@ export default {
   font-weight: normal;
   font-style: normal;
 }
+a{text-decoration:none; color: #6b2e6d;}
 .slide01 {
   background-image: url(../../public/images/lemon.jpg);
   background-size: cover;
@@ -428,6 +429,21 @@ color: #222;
   flex: 1;
   background-size: cover;
 }
+@media (max-width: 1366px){
+  .main > h2{
+  font-size: 1.5rem;
+  width: 50%;
+  height: 5%; 
+  border-radius: 50px;
+  margin-bottom: 3%;
+}
+.main-list{
+  margin-bottom: 5%;
+}
+.over-view-main2{
+  text-align: center;
+}
+}
 @media (max-width: 820px){
   .slide03-p>p:nth-of-type(1){
   font-size: 1.5rem;
@@ -456,11 +472,23 @@ color: #222;
   font-size: 1.5rem;
   width: 100%;
   height: 20%; 
-  border-radius: 20px;
-  margin-top: 10%;
+  border-radius: 50px;
+  margin: 10% 0;
 }
 .nice{
   text-align: center;
+}
+.main-bottom>div:nth-of-type(3):hover{
+  font-size: 1rem;
+}
+.main-bottom>div:nth-of-type(1):hover{
+  font-size: 1rem;
+}
+.main-bottom1>div:nth-of-type(2):hover{
+  font-size: 1rem;
+}
+.main-list{
+  margin-bottom: 10%;
 }
 }
 @media (max-width: 576px){

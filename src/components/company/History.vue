@@ -53,6 +53,27 @@
   background-position: center;
   background-size: cover;
 }
+@media(max-width : 1366px){
+  .eye>h1{
+    width: 30%;
+  }
+  .item{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .item >div{
+    width: 100%;
+    // height: 70vh;
+  }
+}
+@media (max-width: 576px) {
+  .eye > h1 {
+    width: 50%;
+    font-size: 1.5rem;
+  }
 
+}
 </style>

@@ -121,11 +121,16 @@ color: orangered;
 }
 
 a{text-decoration:none; color: #6b2e6d;}
-@media (max-width: 344px){
-  .router-link{
-    display: none;
-  }
+
+@media (max-width: 920px){
+  .MenuBar{
+  width: 90%;
+  display: flex;
+  display: flex;
+  flex-direction: column;  
 }
+}
+
 @media (max-width: 576px) {
 .MenuBar{
   width: 90%;
@@ -159,13 +164,23 @@ h1{
 .sub-menu p{
   font-size: 8px;
 }
+@media (max-width: 344px){
+  .router-link{
+    display: flex;    
+  }
+  .company,
+.BUSINESS,
+.LAB,
+.PRODUCT{
+  width: 80px;
 }
-@media (max-width: 820px){
-  .MenuBar{
-  width: 90%;
-  display: flex;
-  display: flex;
-  flex-direction: column;  
+.company > .sub-menu,
+.BUSINESS > .sub-menu,
+.PRODUCT> .sub-menu,
+.LAB > .sub-menu{
+  width: 80px;
 }
 }
+}
+
 </style>

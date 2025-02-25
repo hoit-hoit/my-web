@@ -17,6 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
+a{text-decoration:none; color: #6b2e6d;}
     .product{
       width: 100%;
       height: 130vh;
@@ -40,11 +41,9 @@
       align-items: center;
       color: #fff;
     }
-    .list >li{
-      width: 15%;      
-    }
-    .list >li:hover{
-      color: orangered;
+  
+    .list li:hover{
+      color:blanchedalmond;
       cursor: pointer;
     }
     .list >p{
@@ -54,4 +53,16 @@
     border: 1px solid #555;
     background-color: #555;
     }
+    @media(max-width : 576px){
+  .list{
+      font-size: 15px; 
+      text-align: center;
+       
+    }
+}
+    @media(max-width : 345px){
+  .list{
+    text-align: center;
+  }
+}
 </style>
