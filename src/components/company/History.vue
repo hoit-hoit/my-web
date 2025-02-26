@@ -53,7 +53,7 @@
   background-position: center;
   background-size: cover;
 }
-@media(max-width : 1366px){
+@media(max-width : 1370px){
   .eye>h1{
     width: 30%;
   }

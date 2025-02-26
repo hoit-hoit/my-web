@@ -40,6 +40,8 @@ a{text-decoration:none; color: #6b2e6d;}
       font-size: 20px;
       align-items: center;
       color: #fff;
+      position: sticky;
+      top: 0;
     }
   
     .list li:hover{

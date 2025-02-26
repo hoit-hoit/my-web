@@ -54,6 +54,8 @@ import { useRouter } from 'vue-router';
       font-size: 20px;
       align-items: center;
       z-index:4;
+      position: sticky;
+      top: 0;
     }
    
     .list li:hover{

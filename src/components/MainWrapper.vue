@@ -429,7 +429,7 @@ color: #222;
   flex: 1;
   background-size: cover;
 }
-@media (max-width: 1366px){
+@media (max-width: 1370px){
   .main > h2{
   font-size: 1.5rem;
   width: 50%;
@@ -443,6 +443,20 @@ color: #222;
 .over-view-main2{
   text-align: center;
 }
+.slide02-p >p:nth-of-type(2),
+.slide02-p >p:nth-of-type(1){
+  font-size: 1.5rem;
+  word-break: keep-all;
+}
+.slide03-p > p:nth-of-type(2){
+  font-size: 1.5rem;
+  word-break: keep-all;
+}
+
+.slide03-p > p:nth-of-type(1){
+    font-size: 2rem;
+    word-break: keep-all;
+  }
 }
 @media (max-width: 820px){
   .slide03-p>p:nth-of-type(1){

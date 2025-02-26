@@ -53,7 +53,7 @@
 .item > div:nth-of-type(1):hover {
   background-image: url(../../../public/images/about.jpg);
 }
-@media (max-width: 1366px) {
+@media (max-width: 1370px) {
   .eye > h1 {
     width: 30%;
   }

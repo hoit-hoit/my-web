@@ -38,7 +38,9 @@ a{text-decoration:none; color: #6b2e6d;}
       width: 100%;
       height: 5%;
       background-color:cornflowerblue;
-      font-size: 20px;            
+      font-size: 20px;    
+      position: sticky;
+      top: 0;        
     }
   
     .list li:hover{

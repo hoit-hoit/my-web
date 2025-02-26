@@ -41,6 +41,8 @@ a{text-decoration:none; color: #6b2e6d;}
       background-color: orange;
       font-size: 20px;     
       align-items: center;
+      position: sticky;
+      top: 0;
     }
     
     .list li:hover{
